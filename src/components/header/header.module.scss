@@ -1,0 +1,62 @@
+@import "../../app/colors";
+
+.header {
+    background-color: $verde;
+    color: white;
+    height: 80px;
+    gap: 10px;
+    padding: 16px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    box-shadow: 0px 1px 0px 0px #0000001A;
+}
+
+.image {
+    width: 204px;
+    position: absolute;
+    left: calc(50% - 102px);
+}
+
+.desktop {
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.mobile {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.moduleTitle {
+    margin-left: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    color: $verde-claro-light-2;
+}
+
+.menuSubTitle {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.notifications {
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 10;
+    width: 14px;
+    height: 14px;
+}
